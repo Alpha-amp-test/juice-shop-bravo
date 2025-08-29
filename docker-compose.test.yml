@@ -7,3 +7,4 @@ services:
   app:
     image: bkimminich/juice-shop:latest-amd64
     build: ./
+    user: "1000:1000"
